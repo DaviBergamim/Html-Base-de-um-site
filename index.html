@@ -12,6 +12,7 @@
   .center {
     text-align: center;
   }
+
   img {
     width: 200px;
   }
@@ -43,7 +44,10 @@
   </ul>
 
   <h4>Modo de preparo:</h4>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/BYNFz9IWwy0?si=4YmVmXls5AM3zCgJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BYNFz9IWwy0?si=4YmVmXls5AM3zCgJ"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <ul>
     <li>Pique o biscoito em pedacinhos pequenos e reserve.</li>
     <li>Com o leite condensado, a margarina e o chocolate em pó, faça um brigadeiro.</li>
@@ -54,51 +58,81 @@
     <li>Deixe esfriar e corte em quadradinhos.</li>
   </ul>
 
-  <h5 class="center">Dica:</h5>
-  <p class="center">Se quiser, pode colocar a massa da palha italiana numa vasilha e comer de colher.</p>
-  <h6 class="center">Informações dos ingredientes</h6>
-  <div style="text-align: center;">
-  	<table border="1">
-  	<thead>
-  		<th>Nome dos ingredientes</th>
-  		<th>Preço</th>
-  		<th>Observação</th>
-  	</thead>
-  	<tbody>
-  		<tr>
-  			<td>Nome do ingredientes</td>
-  			<td>Preço do ingrediente</td>
-  			<td>Marca</td>
-  		</tr>
-  		<tr>
-  			<td>Leite condensado</td>
-  			<td>R$:8,99</td>
-  			<td>Nestlé Moça</td>
-  		</tr>
-  	</tbody>
-  	<tbody>
-  		<td>Margarina</td>
-  		<td>R$:7,14</td>
-  		<td>Qualy</td>
-  	</tbody>
-  	<tbody>
-  		<td>Achocolatado</td>
-  		<td>R$:13,48</td>
-  		<td>Toddy</td>
-  	</tbody>
-  	<tbody>
-  		<td>Biscoito Maisena</td>
-  		<td>R$:4,99</td>
-  		<td>Piraquê</td>
-  	</tbody>
-  	<tfoot>
-  		<tr>
-  			<td colspan="3">Dados coletados em 13/08/2024</td>
-  		</tr>
-  	</tfoot>
+  <h5>Dica:</h5>
+  <p>Se quiser, pode colocar a massa da palha italiana numa vasilha e comer de colher.</p>
+  <h6>Informações dos ingredientes</h6>
+
+  <table border="1" class="center">
+    <thead>
+      <th>Nome dos ingredientes</th>
+      <th>Preço</th>
+      <th>Observação</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nome do ingredientes</td>
+        <td>Preço do ingrediente</td>
+        <td>Marca</td>
+      </tr>
+      <tr>
+        <td>Leite condensado</td>
+        <td>R$:8,99</td>
+        <td>Nestlé Moça</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <td>Margarina</td>
+      <td>R$:7,14</td>
+      <td>Qualy</td>
+    </tbody>
+    <tbody>
+      <td>Achocolatado</td>
+      <td>R$:13,48</td>
+      <td>Toddy</td>
+    </tbody>
+    <tbody>
+      <td>Biscoito Maisena</td>
+      <td>R$:4,99</td>
+      <td>Piraquê</td>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">Dados coletados em 13/08/2024</td>
+      </tr>
+    </tfoot>
   </table>
+
+  <br>
+  <div>
+    <form action=" /action_page.php">
+        <label for="email">Email</label>
+        <br>
+        <input name="email" type="email" required placeholder="Email:">
+        <br>
+        <br>
+        <label for="nome">Nome</label>
+        <br>
+        <input name="nome" type="text" placeholder="Nome:">
+        <br>
+        <br>
+        <label for="Sobrenome">Sobrenome</label>
+        <br>
+        <input name="Sobrenome" type="text" placeholder="Sobrenome:">
+        <br>
+        <br>
+        <label for="Duvidas">Duvidas</label>
+        <br>
+        <textarea rows="6" cols="50" name="Duvidas" placeholder="Insira aqui sua duvida."></textarea>
+  
+        <br>
+        <br>
+        <input type="submit">
   </div>
-  	
+  <br>
+  <h8>Endereço da loja</h8>
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.6597035683335!2d-40.29602101581754!3d-20.272943152895238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817f3f958d705%3A0xbc125a8d5195ef7d!2sPadaria%20Monza%20-%20Bairro%20Rep%C3%BAblica!5e0!3m2!1spt-PT!2sbr!4v1723808114632!5m2!1spt-PT!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 </body>
 
 </html>
